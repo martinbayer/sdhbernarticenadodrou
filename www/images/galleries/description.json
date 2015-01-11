@@ -1,0 +1,8 @@
+// all description must contain the title - it is displayed as the gallery's label and title for the opened page
+title = 'Some title for gallery'
+// shortcut will be used for references on the page so it must be presented
+shortcut = 'shortcut_for_gallery'
+// there must be a date in the dd/mm/yyyy format and the galleries are sorted by its date
+date = 20/10/2015
+// there can be a description which will be displayed on a gallery item hover
+description = There is some description used for the gallery

@@ -1,0 +1,24 @@
+.navbar-inverse {
+	background-color:@navbar-background-color; 
+	.navbar-brand { color : @navbar-plain-text-color; 
+					&:hover ,&:focus{
+						  	color: @navbar-plain-text-color-active;
+							background-color: transparent;
+	}
+}
+.navbar-text {
+	color: @navbar-plain-text-color;
+}
+
+.navbar-nav { 
+      > .active > a { 
+          &, &:hover, &:focus {
+                  color : @navbar-plain-text-color-active;
+                  background-color: @navbar-text-active-background;
+          }	
+      }
+      > li > a {
+          color: @navbar-plain-text-color;
+      }
+	}
+}
